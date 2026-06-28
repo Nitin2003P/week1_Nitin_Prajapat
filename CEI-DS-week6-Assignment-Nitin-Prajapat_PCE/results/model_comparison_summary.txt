@@ -1,0 +1,18 @@
+================================================================================
+                          MODEL COMPARISON SUMMARY
+================================================================================
+
+Model                       Parameters    Best Val MSE    Test MSE    Artifacts
+--------------------------------------------------------------------------------
+FFNN Autoencoder            1,100,112      0.009638       0.009633      None
+Transpose CNN Autoencoder      9,569       0.005300       0.005334    Possible
+Upsampled CNN Autoencoder      9,569       0.114107       0.113958      None
+================================================================================
+
+🏆 BEST MODEL
+
+Model Name : Transpose CNN Autoencoder
+Parameters : 9,569
+Best Val MSE : 0.005300
+Final Test MSE : 0.005334
+Artifacts : Possible

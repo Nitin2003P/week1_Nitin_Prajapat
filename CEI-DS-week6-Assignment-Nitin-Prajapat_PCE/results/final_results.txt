@@ -1,0 +1,24 @@
+================================================================================
+FINAL COMPARISON
+================================================================================
+
+Rank    Model                       Test MSE      Parameters
+------------------------------------------------------------
+1       Transpose CNN Autoencoder   0.005334         9,569
+2       FFNN Autoencoder            0.009633     1,100,112
+3       Upsampled CNN Autoencoder   0.113958         9,569
+
+================================================================================
+BEST MODEL
+================================================================================
+
+Model Name : Transpose CNN Autoencoder
+Test MSE   : 0.005334
+Parameters : 9,569
+
+Conclusion:
+Among the three implemented autoencoder architectures, the Transpose CNN
+Autoencoder achieved the best denoising performance with the lowest test
+MSE of 0.005334. The FFNN Autoencoder performed reasonably well but used
+significantly more parameters. The Upsampled CNN Autoencoder showed the
+poorest performance on this implementation.
